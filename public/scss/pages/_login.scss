@@ -1,0 +1,106 @@
+.login {
+    width: 100%;
+    max-width: 460px;
+    position: absolute;
+    *margin-top:-222px;
+    *position: relative;
+    top: 85px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 99999;
+
+    @media #{$mobile} {
+        top: 185px;
+        max-width: inherit;
+    }
+    .contenedor {
+        width: 100%;
+        background-color: white;
+        margin: 0 auto;
+        position: relative;
+        padding-top: 55px;
+        @media #{$mobile} {
+            margin-top: -3px;
+            min-height: 380px;
+            *height: 380px;
+        }
+        .imagen-triangle {
+            width: 100%;
+            h2 {
+                font-size: 18px;
+                font-weight: 300;
+            }
+        }
+        &.exito {
+            padding-top: 30px;
+        }
+    }
+    .formulario {
+        width: 100%;
+        max-width: 275px;
+        margin: 0 auto;
+    }
+    .form-row {
+        margin-bottom: 22px;
+        .form-column {
+            display: inline-block;
+            zoom: 1;
+            /*ie7*/
+            width: 100%;
+            *display: inline;
+            /*ie7*/
+            vertical-align: top;
+            label {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 400;
+                font-size: 15px;
+            }
+            input {
+                width: 100%;
+                padding-left: 10px;
+                border: 1px solid #ccc;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                border-radius: 5px;
+                background-color: white;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 400;
+                height: 37px;
+                max-width: 273px;
+                line-height: 1;
+            }
+            span {
+                display: block;
+                font-size: 12.5px;
+                color: #ccc;
+            }
+        }
+    }
+    .button {
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 23px;
+    }
+    .button input {
+        float: none;
+        background-color: #8ABA42;
+        color: white;
+        width: 270px;
+        height: 50px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 22px;
+        border: none;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .validacion {
+        *width: 85.5%;
+    }
+}

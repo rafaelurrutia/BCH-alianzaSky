@@ -1,0 +1,11 @@
+1.- database.sql
+
+	En este archivo se encuentran las consultas sql necesarias para al menos dejar listo
+	la parte de la base de datos.
+
+2.- configuración para acceder a la base de datos
+	
+	Dirijirse a "application/config" y abrir el archivo "database.php".
+
+	En la linea 76 del archivo mencionado realizar las modificaciones de 
+	configuracioes necesarias para que el sistema pueda acceder a la base de datos.
