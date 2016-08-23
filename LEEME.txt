@@ -9,3 +9,5 @@
 
 	En la linea 76 del archivo mencionado realizar las modificaciones de 
 	configuracioes necesarias para que el sistema pueda acceder a la base de datos.
+
+
